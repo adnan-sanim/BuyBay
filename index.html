@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BuyBay – Online Shopping in Bangladesh</title>
+  <link rel="icon" type="image/png" href="logo.png">
+<meta name="description" content="Shop electronics, fashion, home & more at BuyBay. Cash on Delivery, bKash & Nagad across Bangladesh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="tag">Eid & Puja deals up to 40% off</span>
+        <h1>Shop smart. Get it delivered anywhere in Bangladesh.</h1>
+        <p>Pay by Cash on Delivery, bKash or Nagad. Order in a minute and confirm on Messenger.</p>
+        <a class="btn or" href="#products">Shop now</a>
+      </div>
+      <div class="art" aria-hidden="true">🛍️</div>
+    </div>
+  </section>
+
+  <section class="trust"><div class="wrap">
+    <div><b>Cash on Delivery</b><span>Pay when you receive</span></div>
+    <div><b>Fast delivery</b><span>2–4 days nationwide</span></div>
+    <div><b>Easy returns</b><span>3-day replacement</span></div>
+    <div><b>Live support</b><span>Call or WhatsApp daily</span></div>
+  </div></section>
+
+  <section id="categories"><div class="wrap">
+    <h2>Shop by category</h2>
+    <div class="cats" id="cats"></div>
+  </div></section>
+
+  <section id="products" style="padding-top:10px"><div class="wrap">
+    <h2>Featured products</h2>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Search products…" aria-label="Search products">
+      <select id="price" aria-label="Filter by price">
+        <option value="a">All prices</option><option value="1">Under ৳1,000</option>
+        <option value="2">৳1,000 – ৳2,500</option><option value="3">Over ৳2,500</option>
+      </select>
+      <select id="sort" aria-label="Sort products">
+        <option value="def">Sort: Featured</option>
+        <option value="lo">Price: Low to High</option>
+        <option value="hi">Price: High to Low</option>
+        <option value="rate">Top rated</option>
+      </select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div></section>
+
+  <section class="revs" id="reviews"><div class="wrap">
+    <h2>What our customers say</h2>
+    <div class="rgrid" id="rgrid"></div>
+  </div></section>
+</main>
+<script src="products.js"></script>
+<script src="reviews.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

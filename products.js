@@ -118,8 +118,8 @@ const PRODUCTS = [
   emoji: "🍴",
   images: [
     "https://i.imgur.com/W4A5CUc.jpeg",   // main photo (shown on the product card)
-    "https://i.imgur.com/62QHM1f.png",   // 2nd photo: replace with your own link
-    "https://i.imgur.com/WGmshd2.png"    // 3rd photo: replace with your own link
+    "https://i.imgur.com/R7spgD2.png",   // 2nd photo: replace with your own link
+    "https://i.imgur.com/Kcc2Yd3.png"    // 3rd photo: replace with your own link
   ],
   desc: ""
 },

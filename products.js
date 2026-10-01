@@ -89,6 +89,22 @@ const PRODUCTS = [
 
 
 
+{
+  id: 5,
+  name: "Q86 Retro Camera Design Wireless Earbuds ",
+  category: "Electronics",
+  price: 700,
+  oldPrice: 780,
+  rating: 4.5,
+  stock: 22,
+  emoji: "📱",
+  images: [
+    "https://i.imgur.com/NNgYWNw.png",   // main photo (shown on the product card)
+    "https://i.imgur.com/62QHM1f.png",   // 2nd photo: replace with your own link
+    "https://i.imgur.com/WGmshd2.png"    // 3rd photo: replace with your own link
+  ],
+  desc: "blending a vintage camera design with premium leather texture, the Q86 Retro Wireless Earbuds feature a smart LED display, fast Bluetooth 5.4, ENC noise reduction for crisp calls, and low-latency gaming with sweat resistance. The perfect all-in-one blend of timeless style and modern Hi-Fi sound!"
+},
 
 
 

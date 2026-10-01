@@ -107,7 +107,22 @@ const PRODUCTS = [
 },
 
 
-
+{
+  id: 6,
+  name: "6 In 1 Combo Offer - Kitchen Items",
+  category: "Kitchen",
+  price: 1500,
+  oldPrice: 2280,
+  rating: ,
+  stock: 32,
+  emoji: "🍴",
+  images: [
+    "https://i.imgur.com/W4A5CUc.jpeg",   // main photo (shown on the product card)
+       // 2nd photo: replace with your own link
+       // 3rd photo: replace with your own link
+  ],
+  desc: "blending a vintage camera design with premium leather texture, the Q86 Retro Wireless Earbuds feature a smart LED display, fast Bluetooth 5.4, ENC noise reduction for crisp calls, and low-latency gaming with sweat resistance. The perfect all-in-one blend of timeless style and modern Hi-Fi sound!"
+},
 
 
 
